@@ -1,0 +1,173 @@
+@charset 'utf-8';
+
+*{margin: 0; padding: 0; font-family: Roboto;}
+
+.header_wrap {
+    width: 100%;
+    min-width:1903px;
+    margin:0 auto;
+    overflow: hidden;
+}
+header {
+    width: 247px; height: 760px;
+    position: absolute; 
+    float:left; 
+    z-index: 1;
+}
+
+#logo {
+    width: 70px;
+    margin-top: 50px;
+    margin-left: 41px; margin-right: 0;
+    font-style: italic; font-weight: bold;  
+}
+#menu {
+    margin-top: 21px;
+    margin-left: 41px;
+    font-family: Roboto; font-size: 10.5px; 
+    line-height: 22px;
+}
+.main_img {
+    width: 83%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 250px; margin-right: 90px;
+}
+
+
+/* section */
+section {
+    margin-left: 250px;
+    _margin-top: 130px;
+    position: relative;
+}
+section img {
+    margin-top: 20px;
+}
+#haroshi>img {
+    width: 980px; 
+    margin-right: 739px;
+    margin-top: 100px; margin-bottom: -20px;
+    float: left;
+}
+.box {
+    width: 590px; height: 400px;
+    margin-left: 990px; 
+    margin-top: 100px;
+    background: #f8f8f8;
+    position: absolute;
+    padding-right: 125px;
+    padding-left: 155px;
+}
+.box>h3 {
+    padding-top: 115px;
+    padding-bottom: 45px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+}
+.box>p {
+    font-family: Roboto;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+.serve_img_wrap {
+    clear: both;
+    position: relative;
+    width: 980px; 
+    margin-right: 739px;
+    top: 20px;
+}
+
+.h_p { 
+    width: 100%; _clear: both;
+}
+.profile {
+    width: 798px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px; margin-bottom: 90px;
+    _position: fixed;
+}
+.footer_wrap {
+    margin-left: 55px;
+}
+.foo_logo {
+    float: left;
+    margin-right: -420px;
+    _position: fixed;
+}
+#f_logo {
+    width: 40px;
+    position: relative;
+    margin-left: 590px;
+}
+#c_usm {
+    margin-left: 590px;
+    font-size: 10px;
+    
+}
+footer p {font-size: 10px;}
+
+footer ul {
+    width: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+footer ul>li {
+    float: left;
+    width: 25%;
+    text-align: left;
+    margin-right: -40px;
+}
+
+div>img {
+    _margin-top: 20px;
+}
+#home_top {
+    font-weight: bold;
+    display: inline-block;
+}
+.go-to-top {
+    width: 10px;
+    margin-left: 350px;
+    position: relative;
+    bottom: 15px; left: 68px;
+    border: none;
+    outline: none;
+    background-color: none;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

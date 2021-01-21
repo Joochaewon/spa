@@ -1,0 +1,145 @@
+@charset 'utf-8';
+
+*{margin: 0; padding: 0; font-family: Roboto;}
+
+/* header */
+.header_wrap {
+    width: 100%;
+    min-width:1903px;
+    margin:0 auto;
+    overflow: hidden;
+    position: fixed;
+}
+
+#logo {
+    width: 70px;
+    margin-top: 50px;
+    margin-left: 41px; margin-right: 0;
+}
+
+#menu {
+    margin-top: 21px;
+    margin-left: 41px;
+    font-family: Roboto; font-size: 10.5px; 
+    line-height: 22px;
+}
+
+
+/* aside */
+.g_wrap {
+    position: fixed;
+    width: 50%;
+    text-align: center;
+    top: 350px;
+}
+
+/*gallery_bar*/
+.g_wrap img {          
+    width: 50px;
+    margin-top: -138px;
+}
+.g_wrap>h3 {
+    font-size: 38px;
+    font-weight: normal;
+    margin-bottom: 70px;
+}
+.g_wrap>p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+section {
+    width: 50%;
+    float: right;
+    margin-right: 40px;
+    margin-top: 49px;
+}
+
+
+/* 우측 이미지 hover */
+section div {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+section div h1 {
+    position: absolute;
+    color: transparent;
+    font-size: 50px;
+    letter-spacing: 1px;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+section div:hover img{
+    filter: brightness(50%);
+  
+    
+}
+section div:hover h1 {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/* footer */
+/*
+footer {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px; margin-bottom: 90px;
+    position: 
+}
+.footer_wrap {
+    margin-left: 55px;
+}
+.foo_logo {
+    float: left;
+    margin-right: -420px;
+    _position: fixed;
+}
+#f_logo {
+    width: 40px;
+    position: relative;
+    margin-left: 590px;
+}
+#c_usm {
+    margin-left: 590px;
+    font-size: 10px;
+    
+}
+footer p {font-size: 10px;}
+
+footer ul {
+    width: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+footer ul>li {
+    float: left;
+    width: 25%;
+    text-align: left;
+    margin-right: -40px;
+}
+
+div>img {
+    _margin-top: 20px;
+}
+#home_top {
+    font-weight: bold;
+    display: inline-block;
+}
+.go-top {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: -85px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
