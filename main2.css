@@ -1,0 +1,111 @@
+@charset 'utf-8';
+
+*{margin: 0; padding: 0; font-family: Roboto;}
+/* logo */
+.header_wrap {
+    width: 100%;
+    min-width:1903px;
+    margin:0 auto;
+    overflow: hidden;
+}
+header {
+    width: 247px; height: 760px;
+    position: absolute; 
+    float:left; 
+    z-index: 1;
+    background: white;
+}
+
+#logo {
+    width: 70px;
+    margin-top: 50px;
+    margin-left: 41px; margin-right: 0;
+    font-style: italic; font-weight: bold;
+    
+}
+
+#menu {
+    margin-top: 21px;
+    margin-left: 41px;
+    font-family: Roboto; font-size: 10.5px; 
+    line-height: 22px;
+}
+.main_img {
+    float:right;
+    width: 87%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+/* section */
+section {
+    width: 100%;
+    overflow: hidden;
+    
+}
+.since_our {}
+section>h2 {
+    float: left;
+    margin-top: 35px; margin-bottom: 35px;
+    margin-left: 267px;
+    font-size: 30px;
+    font-weight: 400;
+}
+#since {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    
+}
+section h2, h3, p {
+    _text-align: left;
+}
+section>h3 {
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+#our {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px; 
+}
+.tt {
+    width: 100%; 
+    margin-top: 130px; margin-bottom: 100px;
+    margin-left: 200px;
+    font-size: 28px;
+}
+.tt>h1 {font-weight: 400;}
+#ttt {text-indent: 23px; _font-weight: 300;}
+
+/* 아래 사진 3개 */
+article {width: 100%; margin: 0 auto;}
+article img {
+    width: 599px;
+}
+.modularity>img {
+    margin-top: 900px;
+    margin-left: 230px;  
+}
+.modularity>h2, p {
+    margin-left: 1000px;
+    
+}
+.swiss_quality {
+    margin-left: 230px;
+    margin-top: -50px;
+}
+.sustainability {
+    margin-left: 230px;
+    margin-top: -68px;
+}
+
+
+
+
+
+
+
